@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Practice 2</title>
+</head>
+<body>
+    <h1>"Forms : Radio button and Checkbox,Dropdown  <br>
+        Tables : colspan , rowspan"
+    </h1>
+
+    <h2>Radio Buttons</h2>
+    <form action="">
+        <label for="html">Html</label><br>
+        <input type="radio" name="elevation" id="html" value="html" >
+        <label for="css">css</label><br>
+        <input type="radio" name="elevation" id="css" value="css" >
+        <label for="js">js</label><br>
+        <input type="radio" name="elevation" id="js" value="js" >
+        <input type="submit">
+    </form> <br>
+
+    <h2>Checkboxes</h2>
+    <form action="index2.html">
+        <label for="html">Html</label><br>
+        <input type="checkbox" name="elevation" id="html" value="html" >
+        <label for="css">css</label><br>
+        <input type="checkbox" name="elevation2" id="css" value="css" >
+        <label for="js">js</label><br>
+        <input type="checkbox" name="elevation3" id="js" value="js" >
+        <input type="submit">
+    </form> <br>
+
+    <h2>DropDown Menu</h2>
+    <form action="">
+        <label for="drop">Select the Course </label>
+            <select name="dropdown" id="drop">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JAVASCRIPT </option>
+                <option value="">REACT</option>
+                <option value="">NODEJS</option>
+                <option value="">EXPRESS JS</option>
+                <option value="">MONGO DB</option>
+            <input type="submit">
+            </select>
+        </form> <br>
+
+        <h2>Tables :Whenever we want to represent the data in the rows and columns form  then we use the table tag</h2>
+        <p>table ,tr is an table row,td which is known as table data ,th is known for table heading</p> <br>
+
+        <table border="3px" width="500px" height="150px" style="font-weight: bolder;" align="center">
+            <tr>
+                <th>Heading1</th>
+                <th>Heading2</th>
+                <th>Heading3</th>
+                <th>Heading4</th>
+            </tr>
+            <tr>
+                <td>User First 1</td>
+                <td colspan="2" rowspan="2">User Last 1</td>
+                <td>56789</td>
+            </tr>
+            <tr>
+                <td>User First 2</td>
+                <td>56789</td>
+            </tr>
+            <tr>
+                <td>User First 3</td>
+                <td>User Last 3</td>
+                <td>09876541</td>
+                <td>98765</td>
+            </tr>
+        </table>
+</body>
+</html>
